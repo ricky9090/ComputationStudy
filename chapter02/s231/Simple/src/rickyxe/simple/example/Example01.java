@@ -45,9 +45,7 @@ public class Example01 {
         exp = _Multiply(
                 _Number(1),
                 _Multiply(
-                        _Add(
-                                _Number(2),
-                                _Number(3)),
+                        _Add(_Number(2), _Number(3)),
                         _Number(4)));
 
         println(exp.inspect());

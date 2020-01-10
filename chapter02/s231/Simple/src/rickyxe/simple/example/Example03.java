@@ -30,9 +30,7 @@ public class Example03 {
         XObject s;
         s = _Assign(
                 _Variable(x),
-                _Add(
-                        _Variable(x),
-                        _Number(1)));
+                _Add(_Variable(x), _Number(1)));
 
         _Machine(s, env).run();
     }
